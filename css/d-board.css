@@ -7,7 +7,7 @@
  * https://raw.github.com/PedroFuentes/d-board/master/LICENSE
  */
 
- .d-board{
+ .d-board {
   background-color: #333;
   border-radius: 6px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
@@ -29,17 +29,17 @@
   -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
   -webkit-font-smoothing: antialiased;
 }
-.d-board a{
+.d-board a {
   text-decoration: underline;
   transition: color 0.15s ease-out;
   -moz-transition: color 0.15s ease-out;
   -o-transition: color 0.15s ease-out;
   -webkit-transition: color 0.15s ease-out;
 }
-.d-board a:hover{
+.d-board a:hover {
   color: #eee
 }
-.d-board h1{
+.d-board h1 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   color: #fff;
   font-size: 28px;
@@ -48,17 +48,17 @@
   padding: 15px 20px 15px 20px;
   text-shadow: 0px -1px 0px #000000;
 }
-.d-board-footer{
+.d-board-footer {
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   padding: 15px 20px 15px 20px;
 }
-.d-board ul{
+.d-board ul {
   border: 0;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.d-board li{
+.d-board li {
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   clear: both;
@@ -66,24 +66,24 @@
   position: relative;
   zoom: 1;
 }
-.d-board li:before, .d-board li:after{
+.d-board li:before, .d-board li:after {
   content: ".";
   display: block;
   height: 0;
   overflow: hidden;
   visibility: hidden;
 }
-.d-board li:after{
+.d-board li:after {
   clear: both
 }
-.d-board-box{
+.d-board-box {
   float: left;
   font-weight: bold;
   margin-left: 1%;
   margin-right: 1%;
   width: 98%;
 }
-.d-board p{
+.d-board p {
   background: #1a1a1a;
   background: -moz-linear-gradient(top, #212121 50%, #262626 100%);
   background: -ms-linear-gradient(top, #212121 50%, #262626 100%);
@@ -110,7 +110,7 @@
   -webkit-border-radius: 3px;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5) inset,0 -2px 0px rgba(0, 0, 0, 0.25) inset,0 1px 0px rgba(255, 255, 255, 0.1);
 }
-.d-board p:after{
+.d-board p:after {
   background: transparent;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.15) 49.99%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.05) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.15) 49.99%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0) 54%, rgba(0, 0, 0, 0.05) 100%);
@@ -125,19 +125,19 @@
   top: 0;
   width: 100%;
 }
-.d-board.compact h1{
+.d-board.compact h1 {
   padding: 7px 20px;
 }
-.d-board.compact li{
+.d-board.compact li {
   padding: 4px 20px;
 }
-.d-board.compact p{
+.d-board.compact p {
   margin-bottom: 2px;
 }
-.d-board.compact .d-board-footer{
+.d-board.compact .d-board-footer {
   padding: 7px 20px;
 }
-.d-board.square{
+.d-board.square {
   border-radius: 0;
   box-shadow: none;
   margin: 0;
@@ -153,65 +153,67 @@
   border-left: 1px solid rgba(0, 0, 0, 0.16);
   border-right: 1px solid rgba(255, 255, 255, 0.04);
 }
-.d-board.square h1{
+.d-board.square h1 {
   padding: 7px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   border-top: 1px solid rgba(255, 255, 255, 0.04);
 }
-.d-board.square li{
+.d-board.square li {
   padding: 4px 20px;
 }
-.d-board.square p{
+.d-board.square p {
   margin-bottom: 2px;
 }
-.d-board.square .d-board-footer{
+.d-board.square .d-board-footer {
   padding: 7px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
   border-top: 1px solid rgba(255, 255, 255, 0.04);
 }
-.d-board .grid-1{
+.d-board .grid-1 {
   width: 4.25%;
 }
-.d-board .grid-2{
+.d-board .grid-2 {
   width: 10.5%;
 }
-
-.d-board .grid-3{
+.d-board .grid-3 {
   width: 16.75%;
 }
-
-.d-board .grid-5{
+.d-board .grid-4 {
+  width: 23.0%;
+}
+.d-board .grid-5 {
   width: 29.25%;
 }
-
-.d-board .grid-6{
+.d-board .grid-6 {
   width: 35.5%;
 }
-
-.d-board .grid-7{
+.d-board .grid-7 {
   width: 41.75%;
 }
-
-.d-board .grid-9{
+.d-board .grid-8 {
+  width: 48.0%;
+}
+.d-board .grid-9 {
   width: 54.25%;
 }
-
-.d-board .grid-10{
+.d-board .grid-10 {
   width: 60.5%;
 }
-
-.d-board .grid-11{
+.d-board .grid-11 {
   width: 66.75%;
 }
-
-.d-board .grid-13{
+.d-board .grid-12 {
+  width: 73.0%;
+}
+.d-board .grid-13 {
   width: 79.25%;
 }
-
-.d-board .grid-14{
+.d-board .grid-14 {
   width: 85.5%;
 }
-
-.d-board .grid-15{
+.d-board .grid-15 {
   width: 91.75%;
+}
+.d-board .grid-16 {
+  width: 98.0%;
 }
