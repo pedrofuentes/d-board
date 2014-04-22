@@ -137,6 +137,36 @@
 .d-board.compact .d-board-footer{
   padding: 7px 20px;
 }
+.d-board.square{
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  width: 90%;
+  -moz-border-radius: 0;
+  -moz-box-shadow: none;
+  -ms-border-radius: ;
+  -ms-box-shadow: none;
+  -o-border-radius: 0px;
+  -o-box-shadow: none;
+  -webkit-border-radius: 0px;
+  -webkit-box-shadow: none;
+  border-left: 1px solid rgba(0, 0, 0, 0.16);
+  border-right: 1px solid rgba(255, 255, 255, 0.04);
+}
+.d-board.square h1{
+  padding: 7px 20px;
+}
+.d-board.square li{
+  padding: 4px 20px;
+}
+.d-board.square p{
+  margin-bottom: 2px;
+}
+.d-board.square .d-board-footer{
+  padding: 7px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
 .d-board .grid-1{
   width: 4.25%;
 }
